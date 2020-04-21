@@ -1,1 +1,1 @@
-Load the test images here
+Load the test images in this directory
