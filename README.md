@@ -22,17 +22,17 @@ __Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained 
 
 ## Project Instructions
 
-All the image data of this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project. If you have already created a `cv-nd` environment for [exercise code](https://github.com/udacity/CVND_Exercises), then you can use that environment! If not, instructions for creation and activation are below.
+All the image data of this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project.If not, instructions for creation and activation are below.
 
 *Note that this project does not require the use of GPU, so this repo does not include instructions for GPU setup.*
 
 
 ### Local Environment Instructions
 
-1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
+1. Clone the repository, and navigate to the downloaded folder. Image data is not included.
 ```
-git clone https://github.com/udacity/P1_Facial_Keypoints.git
-cd P1_Facial_Keypoints
+git clone https://github.com/prithvidalal/Facial_keypoint_detection.git
+cd Facial_keypoint_detection
 ```
 
 2. Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
@@ -48,7 +48,7 @@ cd P1_Facial_Keypoints
 	activate cv-nd
 	```
 	
-	At this point your command line should look something like: `(cv-nd) <User>:P1_Facial_Keypoints <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
+	At this point your command line should look something like: `(cv-nd) <User>:Facial_keypoint_detection <user>$`. The `(cv-nd)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
 	
@@ -87,5 +87,3 @@ jupyter notebook
 ```
 
 3. Once you open any of the project notebooks, make sure you are in the correct `cv-nd` environment by clicking `Kernel > Change Kernel > cv-nd`.
-
-__NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality and answer all of the questions included in the notebook. __Unless requested, it's suggested that you do not modify code that has already been included.__
