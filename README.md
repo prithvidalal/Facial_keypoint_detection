@@ -29,7 +29,7 @@ All the image data of this project are in this Github repository. Before you can
 
 ### Local Environment Instructions
 
-1. Clone the repository, and navigate to the downloaded folder. Image data is not included.
+1. Clone the repository, and navigate to the downloaded folder. Image data can be cloned from ``https://github.com/udacity/P1_Facial_Keypoints/tree/master/data``
 ```
 git clone https://github.com/prithvidalal/Facial_keypoint_detection.git
 cd Facial_keypoint_detection
